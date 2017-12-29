@@ -1,0 +1,28 @@
+
+.watch{
+    
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 9999;
+    top: 25%;
+    border: solid #fff 3px;
+    opacity: 0.6;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.watch a {
+    font-size: 6em;
+    color: #fff;
+    text-decoration:none;
+    margin: 2em;
+}
+
+
+.watch a:hover {
+    text-shadow: 5px 40px #E81A0F;
+    opacity: 0.6;
+}
+
+

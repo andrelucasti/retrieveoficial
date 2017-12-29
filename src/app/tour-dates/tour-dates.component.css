@@ -1,0 +1,11 @@
+#tour-dates{
+    margin: 0.8em;
+    color: rgb(185, 182, 182);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#tour-dates th{
+    text-align: center;
+}
+
