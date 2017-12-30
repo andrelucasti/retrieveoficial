@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 import * as $ from 'jquery';
 import { MaterializeModule } from 'ng2-materialize';
  
@@ -13,6 +14,7 @@ import { TourDatesComponent } from './tour-dates/tour-dates.component';
 import { ContatoFormComponent } from './contato-form/contato-form.component';
 import { ContatoHeadComponent } from './contato-head/contato-head.component';
 import { SocialMidiaComponent } from './social-midia/social-midia.component';
+import { TourDatesService } from './tour-dates/tour-dates.service';
 
 
 @NgModule({
@@ -30,9 +32,10 @@ import { SocialMidiaComponent } from './social-midia/social-midia.component';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     MaterializeModule
   ],
-  providers: [],
+  providers: [TourDatesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
