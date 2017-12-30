@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import * as $ from 'jquery';
+import { MaterializeModule } from 'ng2-materialize';
+ 
 import { AppComponent } from './app.component';
 import { VideoComponent } from './video/video.component';
 import { HomeComponent } from './home/home.component';
@@ -21,14 +22,15 @@ import { SocialMidiaComponent } from './social-midia/social-midia.component';
     HomeComponent,
     StreamMidiaComponent,
     MidiaComponent,
-    InstagramComponent,
+    InstagramComponent, 
     TourDatesComponent,
     ContatoFormComponent,
     ContatoHeadComponent,
     SocialMidiaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MaterializeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
