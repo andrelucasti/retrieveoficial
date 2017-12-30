@@ -10,16 +10,9 @@ export class SocialMidiaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.load_function();
+    
   }
 
-
-
-  load_function(){
-    $('.parallax').parallax();
-  }
-
-  
 
   
 
