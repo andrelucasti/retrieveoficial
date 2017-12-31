@@ -1,8 +1,10 @@
 #social-midia{
-    background-color: crimson;
+    background-color : #ffffff;
       
     text-align: center;
-    color: #fff;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 0.8;
 }
 
 .title{
@@ -12,4 +14,11 @@
 .footer-text{
     margin-top: 20%;
 
+}
+
+#social-midia img {
+    margin-top: 10em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    width: 3em;
 }

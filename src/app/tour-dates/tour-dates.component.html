@@ -4,23 +4,23 @@
     
     <h3 class="center">Tour Dates</h3>
     <br>
+        <div class="row event" *ngFor="let ev of events">
+            <div class="col sm12 m12 l12">
+                <div class="event title">
+                    <h4>Retrieve - {{ev.description}}</h4>
+      
+                </div>
+                <div class="event detail">
+                    <i class="material-icons">date_range</i>{{ev.datetime | date: 'dd/MM/yyyy'}} <i class="material-icons">location_on</i>{{ev.venue.name}} | {{ev.venue.city}} - {{ev.venue.region}}
 
-    <div class="row event">
-      <div class="col sm12 m12 l12">
-          <div class="event title">
-              <h4>Retrieve - Lumos Festival, Recife</h4>
-
+                    <p></p>
+                </div>
+      
+               <div class="event buttons right">
+                    <a class="waves-effect waves-light btn black" href="{{ev.url}}">saiba mais</a>
+               </div>
+            </div>
           </div>
-          <div class="event detail">
-              <i class="material-icons">date_range</i>  30/12/2017 às 20:00H <i class="material-icons">location_on</i>  Estelita
-          </div>
-
-         <div class="event buttons right">
-              <a class="waves-effect waves-light btn">saiba mais</a>
-              <a class="waves-effect waves-light btn">Comprar</a>
-         </div>
-      </div>
-    </div>
     
   </div>
 </section>

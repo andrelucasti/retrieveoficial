@@ -5,14 +5,31 @@
     text-transform: uppercase;
 }
 
-.event{
-    color: #fff;
-    background-color: #444;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    margin: 1.3em;
+#tour-dates h4{
+    font-size: 1.3em;
 }
 
-.event .button .btn {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+
+.event{
+    color: #fff;
+    background-color: #1E1F00;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1.0em;
+    opacity: 0.7;
+
+    font-weight: normal;
+}
+
+.event:hover{
+    opacity: 1.0;
+}
+
+
+.event .detail, .title{
+    color: #fff;
+    opacity: 1.0;
+}
+
+.event .detail{
+    margin-top: 2em;
 }

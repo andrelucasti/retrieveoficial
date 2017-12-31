@@ -4,16 +4,18 @@
     text-transform: uppercase;
     position: absolute;
     z-index: 9999;
-    top: 25%;
+    top: 30%;
+    left: 30%;
     border: solid #fff 3px;
     opacity: 0.6;
     padding: 10px;
     text-align: center;
-    width: 100%;
+    width: 40%;
+    font-family: 'Slabo 27px', serif;
 }
 
 .watch a {
-    font-size: 6em;
+    font-size: 2em;
     color: #fff;
     text-decoration:none;
     margin: 2em;
@@ -23,6 +25,7 @@
 .watch a:hover {
     text-shadow: 5px 40px #E81A0F;
     opacity: 0.6;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 

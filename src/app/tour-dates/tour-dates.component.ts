@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { NgModule, Component, OnInit } from '@angular/core';
 import { TourDatesService } from './tour-dates.service';
 import { Event } from './event.modals'
 
@@ -19,6 +19,15 @@ export class TourDatesComponent implements OnInit {
   ngOnInit() {
     this.tourDateService.getEvents().subscribe(pEvents => {
       console.log(pEvents)
+
+      this.events = pEvents;
+
+      for(var i=0; i < this.events.length; i++){
+        console.log(this.events[i]);
+        
+      }
+
+      
     });
   }
 

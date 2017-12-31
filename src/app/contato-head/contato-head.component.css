@@ -4,5 +4,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.8em;
     text-transform: uppercase;
+    opacity: 0.8;
 
+}
+
+#contato-header img {
+    width: 2em;
+    margin-left: 0.5em;
 }
