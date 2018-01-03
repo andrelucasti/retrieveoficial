@@ -26,12 +26,7 @@ export class TourDatesComponent implements OnInit {
         console.log(this.events[i]);
         
       }
-
-      let scrollFires = [ { selector: '#tour-dates', offset: 200, callback:"" }];
-      Materialize.scrollFire();
     });
   }
-
-
   
 }

@@ -1,3 +1,19 @@
 #widget-instagram{
-    padding: 2em;
+    padding: 2.5em;
+    
+    color: #fff;
+    text-transform: uppercase;
+
+    font-family: 'Quicksand', sans-serif;
 }
+
+#widget-instagram h3{
+    font-size: 2em;
+}
+
+
+#widget-instagram p{
+    font-size: 10px;
+    text-align: center;
+}   
+

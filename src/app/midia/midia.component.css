@@ -4,3 +4,13 @@ img {
     margin-bottom: 0.5em;
     
 }
+
+@media screen and (max-width: 900px){
+    img {
+        width: 50%;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        
+    }
+}
+
