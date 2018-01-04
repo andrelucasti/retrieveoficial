@@ -8,7 +8,7 @@ export class TourDatesService {
 
   constructor(private http: Http) { }
 
-  private URL_EVENT = this.getUrlEvent(new Date(2018,11,30), new Date(2017,1,1));
+  private URL_EVENT = this.getUrlEvent(new Date(2018,11,30), new Date(2018,1,1));
 
   getEvents(): Observable<Event[]>{
 
