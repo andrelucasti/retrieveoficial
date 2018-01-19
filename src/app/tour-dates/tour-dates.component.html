@@ -7,11 +7,11 @@
         <div class="row event" *ngFor="let ev of events">
             <div class="col sm12 m12 l12">
                 <div class="event title">
-                    <h4>Retrieve - {{ev.description}}</h4>
+                    <h4>Retrieve - {{ev.venue.name}}</h4>
       
                 </div>
                 <div class="event detail">
-                    <i class="material-icons">date_range</i>{{ev.datetime | date: 'dd/MM/yyyy'}} <i class="material-icons">location_on</i>{{ev.venue.name}} | {{ev.venue.city}}
+                    <i class="material-icons">date_range</i>{{ev.datetime | date: 'dd/MM/yyyy'}} <i class="material-icons">location_on</i>{{ev.venue.city}}
 
                     <p></p>
                 </div>
